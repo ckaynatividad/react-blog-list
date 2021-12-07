@@ -19,7 +19,7 @@ function App() {
     <section className="main">
       <Header />
       {blogs.map((blog) => {
-        <BlogCard {...blog} key={blog.id} />;
+        <BlogCard key={blog.id} {...blog} />;
       })}
       <Footer />
     </section>
